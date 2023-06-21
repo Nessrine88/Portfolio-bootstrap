@@ -34,7 +34,7 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 1.HTML
-2.CSS
+2.Bootstrap
 3.Linters
 ### Tech Stack <a name="tech-stack"></a>
 ### Key Features <a name="key-features"></a>
@@ -96,10 +96,16 @@ coming soon
 
 
 👤 **Macherki Nessrine**
+👤 **Josiah Mutinhiri**
+
 
 - GitHub: [@githubhandle](https://github.com/Nessrine88)
 - Twitter: [@twitterhandle](https://twitter.com/Nessour88)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nessrine-macherki-86959196/)
+
+- GitHub: [@githubhandle](https://github.com/josman227)
+- Twitter: [@twitterhandle](https://twitter.com/josiahmutinhiri)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/josiahmutinhiri)
 
 
 
