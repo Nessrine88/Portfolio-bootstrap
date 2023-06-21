@@ -5,27 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Protofolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <div class="background">
         <section class="header">
 
             <header class="toolbar ">
-                <a href="#" > <img class="menu-bar" src="images/Icon - Menu.png" alt="menu bar"></a>
-                <ul>
-                    <li><a href="#"> Protofolio</li></a>
-                    <li><a href="#"> About</li></a>
-                    <li><a href="#"> Contact</li></a>
-                </ul>
+              <nav class="navbar navbar-light navbar-expand-md py-3">
+                <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-3">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item"><a class="nav-link active" href="#">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             </header>
 
-            <div class="headline">
+            <div class="container-fluid p-5 text-center">
              
-                    <h2 class="primary">
+                    <h2>
                         Hey there. I’m Nessrine.
                         <br>
                         <span>I’m a software developer</span> 
@@ -34,159 +38,122 @@
                         I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                         don’t hesitate to contact me.
                     </p>
-                        <ul>
-                            <li> <a href="#"><img src="images/social-media/github.svg" alt="github-icon"></a></li>
-                            <li><a href="#"><img src="images/social-media/Linkedin icon.svg" alt="linkedin-icon"></a></li>
-                            <li><a href="#"><img src="images/social-media/angellist.svg" alt="angelist-icon"></a></li>
-                            <li><a href="#"><img src="images/social-media/twitter.svg" alt="twitter-icon"></a></li>
-                            <li><a href="#"><img src="images/social-media/medium.svg" alt="medium-icon"></a></li>
-                        </ul>    
+                
+                      </div>
+                    <div class="container">
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#"><img src="images/social-media/twitter.svg" alt=""></a></li>
+        <li class="list-inline-item"><a href="#"><img src="images/social-media/Linkedin icon.svg" alt=""></a></li>
+        <li class="list-inline-item"><a href="#"><img src="images/social-media/angellist.svg" alt=""></a></li>
+        <li class="list-inline-item"><a href="#"><img src="images/social-media/medium.svg" alt=""></a></li>
+        <li class="list-inline-item"><a href="#"><img src="images/social-media/github.svg" alt=""></a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+                           
                         <img class="arrow-btn"
                         src="images/Disabled.svg" alt="">
              </div>
 
-        </section>
+       
 
 
-        <section class="work-section">
+        
             
-            <div class="my-recent-work ">
+             <div class="container-fluid p-5 text-center">
                 
                 <div class="my-work"> <h2 >My Recent Works</h2></div>
                 <div class="line"></div>
             </div>
            
-            <div class="grid-container flex">
-              <div class="card">
-                <div class="upper-row">
-                </div>
-                <div class="lower-row">
-                  <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="flex-list">
-                      <li>Ruby on Rails</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>HTML</li>
-                    </ul>
-                  <a href="#" class="button">See Project</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="upper-row">
-                </div>
-                <div class="lower-row">
-                  <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="flex-list">
-                      <li>Ruby on Rails</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>HTML</li>
-                    </ul>
-                  <a href="#" class="button">See Project</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="upper-row">
-                </div>
-                <div class="lower-row">
-                  <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="flex-list">
-                      <li>Ruby on Rails</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>HTML</li>
-                    </ul>
-                  <a href="#" class="button">See Project</a>
-                </div>
-              </div>
-
+          
             <div class="card">
-                <div class="upper-row">
-                </div>
-                <div class="lower-row">
+              <div class="card-body">
+            <div class="container-fluid p-5 text-center">
                   <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="flex-list">
-                      <li>Ruby on Rails</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>HTML</li>
-                    </ul>
-                  <a href="#" class="button">See Project</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="upper-row">
-                </div>
-                <div class="lower-row">
-                  <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="flex-list">
-                      <li>Ruby on Rails</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>HTML</li>
-                    </ul>
-                  <a href="#" class="button">See Project</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="upper-row">
-                </div>
-                <div class="lower-row">
-                  <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="flex-list">
-                      <li>Ruby on Rails</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>HTML</li>
-                    </ul>
-                  <a href="#" class="button">See Project</a>
-                </div>
-              </div>
-              </div>
-     
-        </section>
+                   
+                    <div class="container">
+                      <div class="row justify-content-center">
+                        <div class="col-auto">
+                          <ul class="container-fluid p-5 text-center">
+                            <li class="list-inline-item"><a href="#" class="text-decoration-none  text-dark">Ruby on Rails</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-decoration-none  text-dark">CSS</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-decoration-none  text-dark">JavaScript</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-decoration-none  text-dark">HTML</a></li>
+                            
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <button class="btn btn-success text-white">See project</button>
 
-        <section class="about-me-section">
-            <div class="about-me">
+                </div>
+                </div>
+            </div>
+              
+          
+            
+
+           
+          
+           
+     
+
+        
+        <div class="container-fluid p-5 text-center">
                 <h2>About me</h2>
                 <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                   don’t hesitate to contact me.</p>
-                  <button type="button">Get my resume</button>
+                  <button type="button" class="btn btn-success text-white">Get my resume</button>
             </div>
             <div class="grid-container">
            
-            <div class="my-skills">
+              <div class="container-fluid p-5 text-center">
                 <img src="images/icon-languages.svg" alt="">
                     <h3>Languages</h3>
-                <ul class="flex-list skill-list">
-                  <li>JavaScript</li>
-                  <li>Ruby</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
+               
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-auto">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"class="text-decoration-none text-dark">JavaScript</a></li>
+                        <li class="list-inline-item"><a href="#"class="text-decoration-none text-dark" >Ruby</a></li>
+                        <li class="list-inline-item"><a href="#"class="text-decoration-none text-dark">HTML</a></li>
+                        <li class="list-inline-item"><a href="#"class="text-decoration-none text-dark">CSS</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
                 
               </div>
-              <div class="my-skills">
+              <div class="container-fluid p-5 text-center">
                 <img src="images/icon-frameworks.svg" alt="">
                 <h3>Frameworks</h3>
-                <ul class="flex-list skill-list">
-                  <li>React.js</li>
-                  <li>Ruby on Rails</li>
-                  <li>RSpec</li>
-                  <li>Capybara</li>
-                  <li>Selinium</li>
+                <ul class="container-fluid p-5 text-center">
+                  <li class="text-decoration-none text-dark list-inline-item">React.js</li>
+                  <li class="text-decoration-none text-dark list-inline-item">Ruby on Rails</li>
+                  <li class="text-decoration-none text-dark list-inline-item">RSpec</li>
+                  <li class="text-decoration-none text-dark list-inline-item">Capybara</li>
+                  <li class="text-decoration-none text-dark list-inline-item">Selinium</li>
 
               </ul>
               </div>
-              <div class="my-skills">
+              <div class="container-fluid p-5 text-center">
                 <img src="images/icon-skills.svg" alt="">
                 <h3>Skills</h3>
                 <ul class="flex-list skill-list">
-                  <li>Database Management</li>
-                  <li>Version control</li>
-                  <li>CLI</li>
-                  <li>Web Development</li>
-                  <li>API Design</li>
+                  <li class="text-decoration-none text-dark list-inline-item">Database Management</li>
+                  <li class="text-decoration-none text-dark list-inline-item">Version control</li>
+                  <li class="text-decoration-none text-dark list-inline-item">CLI</li>
+                  <li class="text-decoration-none text-dark list-inline-item">Web Development</li>
+                  <li class="text-decoration-none text-dark list-inline-item">API Design</li>
                 
               </ul>
               </div>
@@ -198,41 +165,43 @@
        
         <section class="contact-me">
           
-          <div class="container get-in-touch">
+          <div class="container-fluid p-5 text-center">
             
-            <p class="para">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+            <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
           </div>
    
 
       
-          <form class="form" action="https://formspree.io/f/moqzgdak" method="post">
+          <form class="container-fluid p-5 text-center" action="https://formspree.io/f/moqzgdak" method="post">
             <input type="text" name="name" id="name" maxlength="30" placeholder="Full Name">
-            <input type="text" name="name" id="firstName" placeholder="First Name" maxlength="30">
-            <input type="text" name="name" id="lastName" placeholder="Last Name" maxlength="30">
             <input name="email" id="email" type="email" placeholder="Email adress">
             <textarea  name="message" id="message" maxlength="500" cols="30" rows="5">Hey I’d like to connect to..</textarea>
-            <a href="#"><button class="button form-btn" type="submit" >Get in touch </button></a>
+            <a href="#"><button class="btn btn-success text-white" type="submit" >Get in touch </button></a>
           
           </form>
         
        
-        <div class="email">
+        <div class="container-fluid p-5 text-center">
           macherki.nessrine@yahoo.com
         </div>
       </section>
-        <div  class="social-media">
-          <ul>
-            <a href="#"><li><img src="images/social-media/twitter.svg" alt=""></li></a>
-            <a href="#"><li><img src="images/social-media/Linkedin icon.svg" alt=""></li></a>
-            <a href="#"><li><img src="images/social-media/medium.svg" alt=""></li></a>
-            <a href="#"><li><img src="images/social-media/github.svg" alt=""></li></a>
-            <a href="#"><li><img src="images/social-media/angellist.svg" alt=""></li></a>
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><img src="images/social-media/twitter.svg" alt=""></a></li>
+            <li class="list-inline-item"><a href="#"><img src="images/social-media/Linkedin icon.svg" alt=""></a></li>
+            <li class="list-inline-item"><a href="#"><img src="images/social-media/angellist.svg" alt=""></a></li>
+            <li class="list-inline-item"><a href="#"><img src="images/social-media/medium.svg" alt=""></a></li>
+            <li class="list-inline-item"><a href="#"><img src="images/social-media/github.svg" alt=""></a></li>
+            
           </ul>
         </div>
+      </div>
         
       
 
 </div>
 
 </body>
+</html>
       
